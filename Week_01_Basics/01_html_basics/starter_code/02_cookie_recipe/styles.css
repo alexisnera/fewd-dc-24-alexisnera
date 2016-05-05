@@ -1,0 +1,38 @@
+body {
+		background: #FFE;
+		border: 3 px solid black;
+		margin: 0;
+		padding: 40px;
+}
+
+img {
+		border: 3px solid black;
+}
+
+img:hover {
+	border-color: white;
+}
+
+section {
+		color: #887;
+}
+
+section a {
+		color: #900;
+}
+
+a {
+	color: #900;
+}
+
+h1 {
+	font-family: Georgia;
+}
+
+h2 {
+	font-family: sans-serif;
+}
+
+h3 {
+	text-transform: uppercase;
+}
