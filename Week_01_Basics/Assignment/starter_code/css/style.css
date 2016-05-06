@@ -38,8 +38,21 @@ body {
   padding-left: 28px;
 }
 
-.commonstyles a {
+.commonstyles hr {
+  border-top: 1px solid #05080C;
+}
 
+.commonstyles a {
+  color: #05080C;
+}
+
+    .commonstyles aoblique {
+      font-style: oblique;
+    }
+
+.commonstyles .acit {
+  color: #05080C;
+  text-decoration: none;
 }
 
 .commonstyles small {
@@ -54,9 +67,10 @@ body {
 
 .commonstyles .csfooter {
   background: #efefef;
-  padding-left: 10px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-top: 7px;
+  padding-right: 50px;
+  padding-bottom: 9px;
 }
 
 .commonstyles tdobliquefooter {
@@ -144,29 +158,29 @@ body {
   padding-bottom: 9px;
 }
 
-    .commonstylescol5 strong {
-      text-align: left;
-      font-size: 18px;
-      font-family: sans-serif;
-      font-weight: bold;
-      vertical-align: top;
-      padding-left: 10px;
-      padding-top: 9px;
-      padding-right: 10px;
-      padding-bottom: 9px;
-    }
+      .commonstylescol5 strong {
+        text-align: left;
+        font-size: 18px;
+        font-family: sans-serif;
+        font-weight: bold;
+        vertical-align: top;
+        padding-left: 10px;
+        padding-top: 9px;
+        padding-right: 10px;
+        padding-bottom: 9px;
+      }
 
-    .commonstylescol5 oblique {
-      text-align: left;
-      font-size: 18px;
-      font-family: sans-serif;
-      font-style: oblique;
-      vertical-align: top;
-      padding-left: 10px;
-      padding-top: 9px;
-      padding-right: 10px;
-      padding-bottom: 9px;
-    }
+      .commonstylescol5 oblique {
+        text-align: left;
+        font-size: 18px;
+        font-family: sans-serif;
+        font-style: oblique;
+        vertical-align: top;
+        padding-left: 10px;
+        padding-top: 9px;
+        padding-right: 10px;
+        padding-bottom: 9px;
+      }
 
 .commonstyles h1 {
   font-family: sans-serif;
@@ -192,12 +206,23 @@ body {
 }
 
 .commonstyles p {
+  color: #05080C;
   margin-top: 0;
   margin-bottom: 27px;
   font-size: 18px;
   font-family: Georgia;
   line-height: 28px;
 }
+
+      .commonstyles pital {
+        color: #05080C;
+        margin-top: 0;
+        margin-bottom: 27px;
+        font-size: 18px;
+        font-family: Georgia;
+        font-style: oblique;
+        line-height: 28px;
+      }
 
 .commonstyles ul {
   font-size: 18px;
@@ -211,6 +236,13 @@ body {
   font-style: italic;
 }
 
+.commonstyles .seealsocolor {
+  list-style: disc;
+  color: #05080C;
+  font-size: 18px;
+  line-height: 28px;
+}
+
 .commonstyles li {
 font-family: sans-serif;
 }
@@ -222,23 +254,65 @@ font-family: sans-serif;
   vertical-align: super;
 }
 
+.commonstyles sup2 {
+  font-size: 14px;
+  text-transform: normal;
+  font-weight: normal;
+  vertical-align: super;
+}
+
 .commonstyles img {
-  margin-left: 20px;
   margin-bottom: 20px;
-  padding: 5px;
-  max-width: 220px;
-  border: 1px solid #000000;
+  max-width: 250px;
 }
 
 .commonstyles .commonstylesimgsize img {
-  margin-left: 20px;
-  float: right;
-  max-width: 220px;
-  border: 1px;
+  float: center;
+  max-width: 250px;
 }
 
 .commonstyles img[alt] {
+  float: center;
+}
+
+.tbim {
+  background: #efefef;
+  border: 1px solid black;
   float: right;
+  margin: 0 0 20px 20px;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-right: 24px;
+  padding-left: 24px;
+}
+
+.tbim th {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 12px;
+  line-height: 12px;
+  text-align: center;
+}
+
+.tbim p {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: center;
+  padding-bottom: 12px;
+  line-height: 10px;
+}
+
+.tbim td {
+  font-family: sans-serif;
+  font-size: 11px;
+  text-transform: small;
+  font-weight: lighter;
+  text-align: center;
 }
 
 .toc {
@@ -260,6 +334,7 @@ font-family: sans-serif;
   font-weight: bold;
   padding-left: 0;
   line-height: 20px;
+  text-decoration: underline;
 }
 
 .toc .toclevel-1 > a {
@@ -267,6 +342,7 @@ font-family: sans-serif;
   text-align: left;
   font-size: 14px;
   line-height: 20px;
+  text-decoration: underline;
 }
 
 .toc .toclevel-2 {
@@ -275,6 +351,7 @@ font-family: sans-serif;
   font-size: 13px;
   font-weight: normal;
   line-height: 20px;
+  text-decoration: underline;
 }
 
 .toc .toclevel-2 > a {
@@ -283,6 +360,7 @@ font-family: sans-serif;
   font-size: 13px;
   font-weight: normal;
   line-height: 20px;
+  text-decoration: underline;
 }
 
 .datatable td {
