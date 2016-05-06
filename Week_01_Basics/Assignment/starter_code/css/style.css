@@ -1,5 +1,41 @@
+h1 {
+
+  font-size: 36px;
+  font-family: sans-serif;
+
+}
+
 body {
 
+  background: #f6f6f6;
+  border-top: thick solid #000000;
+  margin: 0;
+  padding-top: 56px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+
+.topreference {
+  font-family: sans-serif;
+  padding-top: 8px;
+  padding-bottom: 15px;
+  padding-left: 12px;
+  padding-right: 18px;
+  line-height: 41px;
+}
+
+.topreference .topreferencecol-1 {
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: bold;
+  vertical-align: top;
+}
+
+.topreference .topreferencecol-2 {
+  font-size: 18px;
+  vertical-align: top;
+  padding-left: 28px;
 }
 
 .commonstyles a {
@@ -7,56 +43,198 @@ body {
 }
 
 .commonstyles small {
+  font-size: 9px;
+  font-family: sans-serif;
+  text-transform: uppercase;
 }
 
 .commonstyles strong {
-
+  font-weight: bold;
 }
 
-.commonstyles h1 {
+.commonstyles .csfooter {
+  background: #efefef;
+  padding-left: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
 
+.commonstyles tdobliquefooter {
+  font-style: oblique;
+  font-size: 9px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.commonstyles th {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 12px;
+}
+
+.commonstyles .thoblique {
+  font-family: sans-serif;
+  font-style: oblique;
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 12px;
+}
+
+.commonstyles tbody {
+  font-family: sans-serif;
+}
+
+.commonstyles .commonstylescol1 {
+  font-size: 11px;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: top;
+  padding-left: 10px;
+  padding-top: 9px;
+  padding-right: 10px;
+  padding-bottom: 9px;
+}
+
+.commonstyles .commonstylescol2 {
+  text-align: center;
+  font-size: 18px;
+  font-family: sans-serif;
+  vertical-align: top;
+  padding-left: 10px;
+  padding-top: 9px;
+  padding-right: 10px;
+  padding-bottom: 9px;
+}
+
+.commonstyles .commonstylescol3 {
+  text-align: left;
+  font-size: 18px;
+  font-family: sans-serif;
+  vertical-align: top;
+  padding-left: 10px;
+  padding-top: 9px;
+  padding-right: 10px;
+  padding-bottom: 9px;
+}
+
+.commonstyles .commonstylescol4 {
+  text-align: left;
+  font-size: 18px;
+  font-family: sans-serif;
+  vertical-align: top;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-top: 9px;
+  padding-right: 10px;
+  padding-bottom: 9px;
+}
+
+.commonstyles .commonstylescol5 {
+  text-align: left;
+  font-size: 18px;
+  font-family: sans-serif;
+  vertical-align: top;
+  padding-left: 10px;
+  padding-top: 9px;
+  padding-right: 10px;
+  padding-bottom: 9px;
+}
+
+    .commonstylescol5 strong {
+      text-align: left;
+      font-size: 18px;
+      font-family: sans-serif;
+      font-weight: bold;
+      vertical-align: top;
+      padding-left: 10px;
+      padding-top: 9px;
+      padding-right: 10px;
+      padding-bottom: 9px;
+    }
+
+    .commonstylescol5 oblique {
+      text-align: left;
+      font-size: 18px;
+      font-family: sans-serif;
+      font-style: oblique;
+      vertical-align: top;
+      padding-left: 10px;
+      padding-top: 9px;
+      padding-right: 10px;
+      padding-bottom: 9px;
+    }
+
+.commonstyles h1 {
+  font-family: sans-serif;
 }
 
 .commonstyles h2 {
+  font-family: sans-serif;
+  font-size: 27px;
 }
 
 .commonstyles h3 {
   margin-top: 42px;
+  font-family: sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .commonstyles h4 {
   margin-bottom: 0;
+  font-size: 18px;
+  font-family: sans-serif;
 }
 
 .commonstyles p {
   margin-top: 0;
   margin-bottom: 27px;
+  font-size: 18px;
+  font-family: Georgia;
+  line-height: 28px;
 }
 
 .commonstyles ul {
+  font-size: 18px;
+  font-family: sans-serif;
   list-style: square;
+  line-height: 28px;
 }
 
-.commonstyles ul p {
-
+.commonstyles .parobl {
+  font-family: Georgia;
+  font-style: italic;
 }
 
 .commonstyles li {
-
+font-family: sans-serif;
 }
 
-.commonstyles hr {
-  border: none;
-  border-top: 1px solid #222222;
-  margin: 30px 0;
+.commonstyles sup {
+  font-size: 11px;
+  text-transform: normal;
+  font-weight: normal;
+  vertical-align: super;
 }
 
 .commonstyles img {
   margin-left: 20px;
   margin-bottom: 20px;
-  border: 1px solid #222222;
   padding: 5px;
-  text-align: center
+  max-width: 220px;
+  border: 1px solid #000000;
+}
+
+.commonstyles .commonstylesimgsize img {
+  margin-left: 20px;
+  float: right;
+  max-width: 220px;
+  border: 1px;
 }
 
 .commonstyles img[alt] {
@@ -66,30 +244,53 @@ body {
 .toc {
 
   max-width: 300px;
-  float:right;
   margin: 0 0 20px 20px;
+  float: right;
+  font-family: Helvetica;
+}
+
+.toc h2 {
+  font-size: 27px;
 }
 
 .toc .toclevel-1 {
-
+  color: #3344aa;
+  text-align: left;
+  font-size: 14px;
+  font-weight: bold;
+  padding-left: 0;
+  line-height: 20px;
 }
 
 .toc .toclevel-1 > a {
-
+  color: #3344aa;
+  text-align: left;
+  font-size: 14px;
+  line-height: 20px;
 }
 
 .toc .toclevel-2 {
-
+  color: #585858;
+  text-align: left;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 20px;
 }
 
 .toc .toclevel-2 > a {
-
+  color: #585858;
+  text-align: left;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 20px;
 }
 
 .datatable td {
-  padding: 8px 14px;
+  font-family: sans-serif;
+  padding: 20px 20px;
 }
 
-.datatable td:first-child{
+.datatable td:first-child {
+  font-size: 11px;
   text-transform: uppercase;
 }
