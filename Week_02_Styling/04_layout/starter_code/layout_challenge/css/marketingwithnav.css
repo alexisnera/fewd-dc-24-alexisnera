@@ -1,0 +1,131 @@
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+
+body {
+	margin: 20px;
+}
+
+.wrapper {
+	width: 100% auto;
+	margin: 20px;
+}
+
+nav {
+	width: 100%;
+	height: 100px;
+	margin-bottom: 20px;
+	display: inline-block;
+}
+
+article {
+	margin-bottom: 20px;
+	height: 300px;
+}
+
+section {
+	height: 150px;
+	margin-bottom: 20px;
+}
+
+footer {
+	height: 100px;
+}
+
+.blocks {
+	border: 2px solid black;
+	background-color: #D3D3D3;
+}
+
+.navblock1 {
+	width: 20%;
+	height: 100px;
+	float: left;
+	display: inline-block;
+}
+
+.navblockrightset {
+	width: 75%;
+	float: right;
+	height: 100px;
+	margin-right: 0;
+	display: inline-block;
+	position: relative;
+  	top: 50%;
+  	transform: translate Y(20%);
+}
+
+.navblock2a{
+	width: 20%;
+	float: right;
+	height: 50px;
+	vertical-align: middle;
+}
+
+.navblock2b{
+	width: 20%;
+	float: right;
+	height: 50px;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+.navblock2c{
+	width: 20%;
+	float: right;
+	height: 50px;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+.navblock2d{
+	width: 20%;
+	float: right;
+	height: 50px;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+.articleblock {
+	height: 300px;
+}
+
+.sectionset {
+	width: 100% auto;
+	height: 150px;
+}
+
+.secblock1 {
+	width: 31%;
+	float:left;
+	height: 150px;
+}
+
+.secblock2 {
+	width: 31%;
+	float: left;
+	height: 150px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.secblock3 {
+	width: 31%;
+	float: right;
+	height: 150px;
+}
+
+.footerblock {
+	height: 100px;
+}

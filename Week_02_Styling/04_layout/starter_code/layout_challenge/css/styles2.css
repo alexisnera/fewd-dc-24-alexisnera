@@ -1,0 +1,57 @@
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+body {
+	margin: 15px;
+}
+
+
+h1 {
+	font-family: sans-serif;
+	font-size: 18px;
+	padding-left: 10px;
+}
+
+header, section, footer {
+	margin-bottom: 20px;
+}
+
+
+.box2 {
+	width: 20%;
+	float: left;
+	margin-right: 10px;
+}
+
+
+.box3 {
+	width: 50%;
+	float: left;
+	margin-right: 10px;
+}
+
+
+.box4 {
+	width: 20%;
+	float: left;
+}
+
+
+.placeholder {
+	background: #D3D3D3;
+	border: 1px solid black;
+	padding: 20px;
+	height: 100px;
+}
+

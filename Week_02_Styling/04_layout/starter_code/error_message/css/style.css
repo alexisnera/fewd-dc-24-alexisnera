@@ -1,0 +1,51 @@
+body {
+	background: #FBFBFB;
+	font-family: sans-serif;
+	padding: 30px;
+}
+
+
+h1 {
+	font-family: sans-serif;	
+}
+
+h2 {
+
+}
+
+p {
+	font-family: sans-serif;
+}
+
+code {
+	background: #EFEFEF;
+	font-family: courier;
+	border: 1px solid #969696;
+	border-radius: 5px;
+	padding: 2px;
+}
+
+#notification {
+	background: #EFEFEF;
+	border: 1px solid #969696;
+	border: 1px solid #F0F0F0;
+	padding: 15px;
+	font-size: 14px;
+}
+
+#yellowboxes {
+	background: #FFFFE5;
+	border: 2px solid #969696;
+	padding: 20px;
+	margin: 3px;
+}
+
+.message {
+	line-height: 30px;
+}
+
+.error {
+	background-color: rgba(160, 0, 0, 0.5);
+	border: 2px solid #E50000;
+	padding: 15px;
+}

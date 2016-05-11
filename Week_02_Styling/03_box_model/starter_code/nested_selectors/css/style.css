@@ -1,0 +1,40 @@
+body {
+	padding-top: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 40 px;
+}
+
+h1 {
+	color: #545454;
+	font-family: Georgia;
+}
+
+body p {
+	color: #a8a8a8;
+	font-family: Georgia;
+	line-height: 25px;
+}
+
+body p em {
+	color: #545454;
+	font-weight: bold;
+}
+
+blockquote {
+	font-style: oblique;
+	border-left: solid 4px #DCDCDC;
+	padding-left: 15px;
+	margin-left: 0;
+}
+
+blockquote p {
+	color: #a8a8a8;
+	font-family: Georgia;
+}
+
+blockquote em {
+	color: #545454;
+	font-weight: bold;
+	font-style: normal;
+}
