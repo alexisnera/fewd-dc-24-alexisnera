@@ -1,0 +1,47 @@
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+/* GLobal */
+
+body {
+	font-family: Open Sans, Helvetica, Arial, sans-serif;
+}
+
+.wrapper {
+	width: 100%;
+	max-width: 2880;
+	margin: 0 auto;
+}
+
+/* Structure */
+
+header {
+	padding-top: 25px;
+	padding-bottom: 15px;
+}
+
+header h1 {
+	color: red;
+	font-size: 40px;
+	letter-spacing: 2px;
+}
+
+header h2 {
+	color: #888;
+	font-size: 20px;
+}
+
+nav {
+	font-size: 25px
+}
+
+nav ul {
+	
+}
