@@ -1,22 +1,26 @@
 jQuery(document).ready(function(){
 
-// When Read More is clicked, call for function that shows the rest of the paragraph
-jQuery('#showone').on('click', showTextOne);
-	// Set function that shows paragraph showing
-	function showTextOne(event) {
+	// When Read More is clicked, show the rest of the paragraph
+	jQuery('.readmore').click (function showReadLess(event){
 		event.preventDefault();
 		jQuery('#show-this-on-click').slideDown();
-        jQuery('#showone').hide();
-        jQuery('#hideone').show();
-	}
+		jQuery('.readmore').hide();
+	    jQuery('.readless').show();
+	});
 
-// When Read Les is clicked, call for function that shows the rest of the paragraph
-jQuery('#hideone').on('click', hideTextOne);
-	//Set function to hide part of the paragraph
-	function hideTextOne(event) {
+	// When Read Less is clicked, hide the rest of the paragraph
+	jQuery('.readless').click (function showReadMore(event){
 		event.preventDefault();
-		jQuery('show-this-on-click')).slideUp();
-        jQuery('#showone').show();
-        jQuery('#hideone').hide();
-	}
+		jQuery('#show-this-on-click').slideUp();
+	    jQuery('.readless').hide();
+	    jQuery('.readmore').show();
+	});
+
+	// When Learn More is clicked, hide the rest of the paragraph and Learn More
+	    jQuery('.learnmore').click (function hideLearnMore(event){
+        event.preventDefault();
+        jQuery('#learnmoretext').slideDown();
+        jQuery('.learnmore').hide();
+    });
+
 });
