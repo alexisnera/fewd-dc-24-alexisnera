@@ -50,5 +50,5 @@ function formatAsUSD(inputValue){
 // When the user submits the form, run the `enter` function
 jQuery("#entry").on("submit",enter);
 
-
+}
 

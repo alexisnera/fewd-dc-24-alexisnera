@@ -4,6 +4,8 @@ $(document).ready(function () {
     // Create a function that runs whenever the submit button is clicked
     function iHaveBeenClicked(event) {
 
+        console.log("hello");
+
         //prevent the submit button from refreshing the page
             event.preventDefault();
 
