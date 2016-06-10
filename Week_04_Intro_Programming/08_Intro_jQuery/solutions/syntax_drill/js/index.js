@@ -17,7 +17,7 @@ jQuery(document).ready(function(){
 
     // When the red box is clicked set the list items toggle red background and white text on and off
     jQuery("#redBox").on('click',function(){
-        jQuery("li").toggleClass("redForm");
+        jQuery("li").toggleClass('redForm');
     });
     
 

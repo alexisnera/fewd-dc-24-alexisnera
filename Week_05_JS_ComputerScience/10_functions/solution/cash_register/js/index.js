@@ -54,6 +54,6 @@ function currencyFormat(number) {
 
 
 // When the user submits the form, run the `enter` function
-jQuery(document).ready(function{
+jQuery(document).ready(function(){
   jQuery('#entry').submit(enter);
 });

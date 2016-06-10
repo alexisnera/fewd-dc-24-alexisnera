@@ -24,7 +24,7 @@ jQuery(document).ready(function(){
 		}
 
 		else {
-			comparison = "<";
+			comparison = "N/A";
 		}
 
 		//define the interactivity/action
