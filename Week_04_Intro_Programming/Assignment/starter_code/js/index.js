@@ -1,26 +1,53 @@
 jQuery(document).ready(function(){
 
-	// When Read More is clicked, show the rest of the paragraph
-	jQuery('.readmore').click (function showReadLess(event){
-		event.preventDefault();
+//Show more paragraph content #show-this-on-click upon clicking "Read More>" or #showone and revealing #hideone button while hiding #showone
+	jQuery ('#showone').click(function(event){
+		event.preventDefault()
+		jQuery('#showone').hide();
 		jQuery('#show-this-on-click').slideDown();
-		jQuery('.readmore').hide();
-	    jQuery('.readless').show();
-	});
+		jQuery('#hideone').show();
+	})
 
-	// When Read Less is clicked, hide the rest of the paragraph
-	jQuery('.readless').click (function showReadMore(event){
-		event.preventDefault();
+
+//Hide extra paragraph content #show-this-on-click upon clicking "Read Less>" or #hideone and reveal #showone while hiding #hideone
+	jQuery ('#hideone').click(function(event){
+		event.preventDefault()
+		jQuery('#hideone').hide();
 		jQuery('#show-this-on-click').slideUp();
-	    jQuery('.readless').hide();
-	    jQuery('.readmore').show();
-	});
+		jQuery('#showone').show();
+	})
 
-	// When Learn More is clicked, hide the rest of the paragraph and Learn More
-	    jQuery('.learnmore').click (function hideLearnMore(event){
-        event.preventDefault();
-        jQuery('#learnmoretext').slideDown();
-        jQuery('.learnmore').hide();
-    });
+//Show more paragraph content #learnmoretext upon clicking "Learn More>" or .learnmore
+	jQuery ('.learnmore').click(function(event){
+		event.preventDefault()
+		jQuery('.learnmore').hide();
+		jQuery('#learnmoretext').slideDown();
+	})	
 
-});
+})
+
+
+// // OTHER VERSION SELECTING CLASSES
+// jQuery(document).ready(function(){
+
+// 	jQuery ('.readmore').click(function(event){
+// 		event.preventDefault();
+// 		jQuery('.readmore').hide();
+// 		jQuery('#show-this-on-click').slideDown();
+// 		jQuery('.readless').show();
+// 	})
+
+// 	jQuery ('.readless').click(function(event){
+// 		event.preventDefault();
+// 		jQuery('.readless').hide();
+// 		jQuery('#show-this-on-click').slideUp();
+// 		jQuery('#showone').show();
+// 	})
+
+// 	jQuery ('.learnmore').click(function(event){
+// 		event.preventDefault();
+// 		jQuery('.learnmore').hide();
+// 		jQuery('#learnmoretext').slideDown();
+// 	})	
+	
+// })
