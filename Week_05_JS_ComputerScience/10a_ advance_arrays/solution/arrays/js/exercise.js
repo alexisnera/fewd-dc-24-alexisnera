@@ -9,7 +9,7 @@
  * Question 1
  * Create an array of image sources. Use image1.png, image2.png, and image3.png as the array values.
  */
-var q1 = ['image1.png', 'image2.png', 'image3.png'];
+var q1 = ['../images/image1.png', '../images/image2.png', '../images/image3.png'];
 console.log("Question 1: " + q1);
 
 /**
