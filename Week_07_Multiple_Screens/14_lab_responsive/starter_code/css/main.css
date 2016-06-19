@@ -184,3 +184,84 @@ a {
     position: relative;
     top: 5px;
 }
+
+.hamburger {
+    display: none;
+}
+
+.mobileMenu {
+    display: none;
+}
+
+.mobileMenuShow {
+    display: block;
+}
+
+
+/* Responsive - mobile */
+
+@media screen and (max-width: 1100px) {
+
+.container {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.navigation {
+    width: 100%
+    max-width: 750px;
+    float: right;
+    display: none;
+}
+
+.block-group {
+    width: 100%;
+    background-color: white;
+    padding: 20px 0;
+}
+
+.block {
+    padding: 0 20px;
+    width: 100%;
+    float: none;
+    border-right: solid lightgray 1px;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.block h2 {
+    color: red;
+}
+
+.hero-block h1 {
+    color: red;
+}
+
+.hamburger {
+    color: yellow;
+    font-size: 40px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.mobileMenuShow {
+    display: block;
+}
+
+.mobileMenu li{
+    color: white;
+    font-style: bold;
+    font-size: 24px;
+    margin: 0 auto;
+    padding: 8px;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+}
+
+}
+
+
+
+
