@@ -4,7 +4,80 @@ Let's set up a few 960 Grid layouts!
  * Question 1:
  * Set up a header in HTML and set it to a 12 column grid. (Set up the row; do not set up the columns.)
  */
+<!--  <!DOCTYPE html>
+ <html>
+ 	<head>
+		<link rel="stylesheet" type="text/css" href="relaxr-contact/normalize.css">
+		<link rel="stylesheet" type="text/css" href="relaxr-contact/960_12_col.css">
+		<style type="text/css">
+			.wrapper {
+				height: 60px;
+				padding: 10px 0;
+				background-color: #DFDFDF;
+				display: block;
+				margin-top: 30px;
+				margin-bottom: 30px;
+			}
+			td {
+				background-color: #C8C8C8;
+				padding: 28px 0;
+			}
+		</style>
+ 	</head>
+ 	<body>
+ 		<header class="container_12">
+ 			<div class="wrapper">
+	 			<table>
+	 				<tr>
+	 					<td></td>
+	 				</tr>
+	 			</table>
+ 			</div>
+ 		</header>
+ 	</body>
+ 	</html>
+ </html> -->
  
+
+<!-- <!DOCTYPE html>
+<htmL>
+<head>
+	<link rel="stylesheet" type="text/css" href="relaxr-contact/normalize.css">
+	<link rel="stylesheet" type="text/css" href="relaxr-contact/960_12_col.css">
+	<style type="text/css">
+		.wrapper {
+			height: 60px;
+			padding: 10px 0;
+			background-color: #DFDFDF;
+			display: block;
+			margin-top: 30px;
+			margin-bottom: 30px;
+		}
+		.wrapper div {
+			background-color: #C8C8C8;
+			padding: 28px 0;
+		}
+	</style>
+</head>
+<body>
+	<header class="container_12">
+		<div class="wrapper">
+			<div class="grid_1"></div>
+			<div class="grid_1"></div>
+			<div class="grid_1"></div>
+			<div class="grid_1"></div>
+			<div class="grid_1"></div>
+			<div class="grid_1"></div>
+			<div class="grid_1"></div>
+			<div class="grid_1"></div>
+			<div class="grid_1"></div>
+			<div class="grid_1"></div>
+			<div class="grid_1"></div>
+			<div class="grid_1"></div>
+		</div>
+	</header>
+</body>
+</htmL> -->
 
 
 /**
@@ -12,6 +85,36 @@ Let's set up a few 960 Grid layouts!
  * Insider the header row, create a 2 column layout. Set the left column to span 3 grids and use the remainder for the right column.
  */
 
+<!--  <!DOCTYPE html>
+ <html>
+ 	<head>
+		<link rel="stylesheet" type="text/css" href="relaxr-contact/normalize.css">
+		<link rel="stylesheet" type="text/css" href="relaxr-contact/960_12_col.css">
+		<style type="text/css">
+			.wrapper {
+				height: 60px;
+				padding: 10px 0;
+				background-color: #DFDFDF;
+				display: block;
+				margin-top: 30px;
+				margin-bottom: 30px;
+			}
+			.wrapper div {
+				background-color: #C8C8C8;
+				padding: 28px 0;
+			}
+		</style>
+ 	</head>
+ 	<body>
+ 		<header class="container_12">
+ 			<div class="wrapper">
+ 				<div class="grid_3"></div>
+ 				<div class="grid_9"></div>
+ 			</div>
+ 		</header>
+ 	</body>
+ 	</html>
+ </html> -->
 
 
 /**
@@ -19,7 +122,57 @@ Let's set up a few 960 Grid layouts!
  * Place a logo image (use logo.png) in the left column and for extra credit add a site search input and button on the right side.
  */
 
-
+<!--  <!DOCTYPE html>
+ <html>
+ 	<head>
+		<link rel="stylesheet" type="text/css" href="relaxr-contact/normalize.css">
+		<link rel="stylesheet" type="text/css" href="relaxr-contact/960_12_col.css">
+		<style type="text/css">
+			.wrapper {
+				padding: 10px 0;
+				background-color: #DFDFDF;
+				display: block;
+				margin-top: 30px;
+				margin-bottom: 30px;
+				overflow: auto;
+			}
+			.wrapper div {
+				background-color: #C8C8C8;
+				padding: 28px 0;
+			}
+			.logo, div.rightCol {
+				margin-top: 0;
+				padding: 0;
+			}
+			form {
+				padding: 0;
+				float: right;
+			}
+			form fieldset {
+				border: 0;
+			}
+			form input {
+				color: #DEDEDE;
+			}
+		</style>
+ 	</head>
+ 	<body>
+ 		<header class="container_12">
+ 			<div class="wrapper">
+ 				<div class="grid_3 logo"><img src="logo.png"></div>
+ 				<div class="grid_9 rightCol">
+ 					<form>
+ 						<fieldset>
+ 							<label for="searchField">Search:</label>
+ 							<input type="text" name="searchField" value="Search">
+ 						</fieldset>
+ 					</form>
+ 				</div>
+ 			</div>
+ 		</header>
+ 	</body>
+ 	</html>
+ </html> -->
 
 /**
  * Question 4: 

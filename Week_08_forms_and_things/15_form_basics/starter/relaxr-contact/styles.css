@@ -14,12 +14,22 @@ a {
   text-decoration: none;
 }
 
+.wrapper {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
 .logo {
   color: #fff;
   float: left;
   font-size: 48px;
   font-weight: 800;
   margin: 0;
+}
+
+p {
+  font-size: 24px;
 }
 
 header {
@@ -30,20 +40,127 @@ header {
 
 header nav {
   float: right;
-  margin-top: 15px;
 }
 
 header nav ul {
 	margin: 0;
+  float: right;
 }
 
 header nav ul li {
   display: inline-block;
   margin: 0 0 0 40px;
+  padding-top: 15px;
   font-size: 24px;
 }
 header nav ul li a {
   color: #f9e42e;
+}
+
+section {
+  width: 100%;
+  max-width: 620px;
+}
+
+section h1 {
+  font-size: 50px;
+  font-weight: 800;
+  margin-left: 20px;
+  margin-bottom: 0;
+}
+
+form {
+  width: 620px;
+  float: left;
+}
+
+section form fieldset {
+  border: 0;
+}
+
+.formLegend {
+  border-bottom: 1px solid #DEDEDE;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.formLegend legend {
+  font-size: 24px;
+  font-weight: 300;
+  padding: 10px 0;
+}
+
+.formFill {
+  margin: 5px 0;
+}
+
+.formFill label {
+  font-size: 24px;
+  font-weight: 300;
+  width: 600px;
+}
+
+.formFill input {
+  width: 600px;
+  font-size: 24px;
+  border: 1px solid #DEDEDE;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-right: 0px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  margin: 10px 0;
+  display: block;
+}
+
+.formFill input:focus {
+  border-color: #9494E5;
+}
+
+.name {
+  background-image: url(img/cd-icon-user.svg), url(img/cd-required.svg);
+  background-repeat: no-repeat;
+  background-position: center left 10px, top right;
+}
+
+.company {
+  background-image: url(img/cd-icon-company.svg), url(img/cd-required.svg);
+  background-repeat: no-repeat;
+  background-position: center left 10px, top right;
+}
+
+.email {
+  background-image: url(img/cd-icon-email.svg), url(img/cd-required.svg);
+  background-repeat: no-repeat;
+  background-position: center left 10px, top right;
+}
+
+.projectDescription {
+  background-image: url(img/cd-icon-message.svg), url(img/cd-required.svg);
+  background-repeat: no-repeat;
+  background-position: center left 10px, top right;
+}
+
+
+.submitBtn {
+  float: right; 
+}
+
+.submitBtn input {
+  color: #FFFFFF;
+  font-weight: 800;
+  font-size: 25px;
+  background-color: #9494E5;
+  padding: 20px 40px;
+  margin: 15px 0;
+  border: 0;
+  border-radius: 5px;
+}
+
+aside {
+  width: 100%;
+  max-width: 300px;
+  float: right;
 }
 
 /* -------------------------------- 
