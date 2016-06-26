@@ -29,7 +29,7 @@ a {
 }
 
 p {
-  font-size: 24px;
+  font-size: 20px;
 }
 
 header {
@@ -57,11 +57,6 @@ header nav ul li a {
   color: #f9e42e;
 }
 
-section {
-  width: 100%;
-  max-width: 620px;
-}
-
 section h1 {
   font-size: 50px;
   font-weight: 800;
@@ -70,18 +65,31 @@ section h1 {
 }
 
 form {
-  width: 620px;
   float: left;
 }
 
-section form fieldset {
+form fieldset {
   border: 0;
+  margin: 0;
+  padding-left: 0;
+}
+
+input:focus {
+  outline: none;
+}
+
+input:active {
+  outline: none;
 }
 
 .formLegend {
   border-bottom: 1px solid #DEDEDE;
   margin-top: 30px;
   margin-bottom: 20px;
+}
+
+.formLegend:first-child {
+  margin-top: 0px;
 }
 
 .formLegend legend {
@@ -97,7 +105,6 @@ section form fieldset {
 .formFill label {
   font-size: 24px;
   font-weight: 300;
-  width: 600px;
 }
 
 .formFill input {
@@ -114,31 +121,28 @@ section form fieldset {
 }
 
 .formFill input:focus {
-  border-color: #9494E5;
+  border: 1px solid #9494E5;
+}
+
+.formIcons {
+  background-repeat: no-repeat;
+  background-position: center left 10px, top right;
 }
 
 .name {
   background-image: url(img/cd-icon-user.svg), url(img/cd-required.svg);
-  background-repeat: no-repeat;
-  background-position: center left 10px, top right;
 }
 
 .company {
   background-image: url(img/cd-icon-company.svg), url(img/cd-required.svg);
-  background-repeat: no-repeat;
-  background-position: center left 10px, top right;
 }
 
 .email {
   background-image: url(img/cd-icon-email.svg), url(img/cd-required.svg);
-  background-repeat: no-repeat;
-  background-position: center left 10px, top right;
 }
 
 .projectDescription {
   background-image: url(img/cd-icon-message.svg), url(img/cd-required.svg);
-  background-repeat: no-repeat;
-  background-position: center left 10px, top right;
 }
 
 
@@ -152,15 +156,14 @@ section form fieldset {
   font-size: 25px;
   background-color: #9494E5;
   padding: 20px 40px;
-  margin: 15px 0;
+  margin: 15px 0 auto;
   border: 0;
   border-radius: 5px;
 }
 
-aside {
-  width: 100%;
-  max-width: 300px;
-  float: right;
+.submitBtn input:active {
+  background-color: #4C4C4C;
+  padding: 20px 30px;
 }
 
 /* -------------------------------- 

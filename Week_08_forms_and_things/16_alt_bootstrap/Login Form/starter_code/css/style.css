@@ -12,6 +12,7 @@ body {
 }
 a {
   text-decoration: none;
+  margin: 0;
 }
 
 
@@ -155,25 +156,52 @@ blockquote span {
   font-weight: 600;
 }
 
-/*.button {
-  border-radius: 5px;
+.btn-default {
   font-weight: 800;
-  padding: 12px 0;
-  width: 280px;
-  font-size: 28px;
-  text-align: center;
-  display: block;
-  margin: 0 auto;
+  font-size: 18px;
+  padding: 10px;
+  color: #FFFFFF;
+  background-color: #033048;
 }
-.yellow {
-  background: #f9e42e;
-  color: #033048;
+
+.btn {
+  margin-top: 20px;
 }
-.blue {
-  background: #033048;
-  color: #fff;
-  font-size: 24px;
-}*/
+
+btn-group {
+  margin: 0;
+}
+
+.row {
+  margin-top: 10px;
+}
+
+label {
+  text-align: right;
+}
+
+    /* BUTTON */
+
+/*    .button {
+      border-radius: 5px;
+      font-weight: 800;
+      padding: 12px 0;
+      width: 280px;
+      font-size: 28px;
+      text-align: center;
+      display: block;
+      margin: 0 auto;
+      outline: 0;
+    }
+    .yellow {
+      background: #f9e42e;
+      color: #033048;
+    }
+    .blue {
+      background: #033048;
+      color: #fff;
+      font-size: 24px;
+    }*/
 
 #sidebar h3 {
   font-size: 32px;
@@ -224,5 +252,7 @@ footer p {
   font-weight: 600;
 }
 
-
+form {
+  margin-top: 20px;
+}
 
