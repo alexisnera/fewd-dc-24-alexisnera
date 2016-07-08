@@ -64,7 +64,7 @@ body {
 
 /* Center the container */
 .container {
-  width: 960px;
+  width: 302px;
   margin: auto;
   padding-top: 5em;
 }
@@ -87,56 +87,55 @@ header {
   font-weight: normal
 }
 
-#city-type {
-  color: #6b6b6c;
-  font-size: 38px;
-  background: #fff;
-  border: 1px solid #111;
-  padding: 0px 30px;
-  display: inline-block;
-  width: 680px;
-  margin-right: 24px;
-  font-family: helvetica, arial, sans-serif;
-  height: 72px;
-  line-height: 74px;
-  vertical-align: middle;
-  box-shadow: #111 0 0 20px;
-}
-#submit-btn {
-  background: #ffe500;
-  color: #000;
-  font-size: 38px;
-  font-weight: bold;
-  text-transform: uppercase;
-  border: 1px solid #111;
-  text-align: center;
-  display: inline-block;
-  width: 250px;
-  height: 72px;
-  line-height: 74px;
-  vertical-align: middle;
-  box-shadow: #111 0 0 50px;
-  font-family: helvetica, arial, sans-serif;
+.selectContainer select {
+  color: #fff;
+  font-size: 30px;
+  font-weight: lighter;
+  background: transparent;
+  border: 1px solid #DEDEDE;
+  border-radius: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  width: 302px;
+  outline: none;
+  height: 52px;
+  line-height: 1;
   cursor: pointer;
-}
-#submit-btn:hover {
-  background: #fff600;
+  padding: 10px;
+  -webkit-appearance: none;
 }
 
+.selectContainer {
+  width: 273;
+  height: 52px;
+  overflow: hidden;
+  background: url(../images/menu-down-arrow.png) no-repeat right #000;
+  border: 0;
+}
+
+
 .nyc {
-  background-image: url(../images/nyc.jpg)
+  background-image: url(../images/nyc.jpg);
 }
 .sf {
-  background-image: url(../images/sf.jpg)
+  background-image: url(../images/sf.jpg);
 }
 .la {
-  background-image: url(../images/la.jpg)
+  background-image: url(../images/la.jpg);
 }
 .austin {
-  background-image: url(../images/austin.jpg)
+  background-image: url(../images/austin.jpg);
 }
 .sydney {
-  background-image: url(../images/sydney.jpg)
+  background-image: url(../images/sydney.jpg);
+}
+.asgard {
+  background-image: url(../images/asgard.png);
+}
+.quezon {
+  background-image: url(../images/quezoncity.jpg);
+}
+.default {
+  background-image: url(../images/citipix_skyline.jpg);
 }
 
 /******************************************
